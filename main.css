@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://i.gifer.com/1trC.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.main {
+    padding: 50px 0;
+    width: 60%;
+    /* height: 400px; */
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h1 {
+    /* margin:; */
+    font-size: 64px;
+    color: white;
+}
+
+.time-content {
+    font-size: 32px;
+    color: white;
+}
+
+.time {
+    width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.time-value {
+    width: 22%;
+    height: 100px;
+}
+
+.title {
+    color: white;
+    font-size: 24px;
+}
+
+.value {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 411px) {
+    .main {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+    .value, .title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 412px) {
+    .main {
+        width: 80%;
+    }
+};
+
